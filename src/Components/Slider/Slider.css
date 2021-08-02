@@ -6,7 +6,7 @@
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
-  color: Red;
+  color: rgb(250, 187, 50);
 }
 @media screen and (max-width: 700px){
   .container-slider {
@@ -35,7 +35,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #f1f1f1;
+  background: gold;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
@@ -74,7 +74,7 @@
   border-radius: 50%;
   border: 3px solid #f1f1f1;
   margin: 0 5px;
-  background: #f1f1f1;
+  background: rgba(0, 0, 0, 0.5);
 }
 .dot.active {
   background: rgb(32, 32, 32);

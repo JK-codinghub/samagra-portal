@@ -95,7 +95,7 @@ Seva Sindhu provides a hassle free service delivery through reduced turnaround t
 
 
                 </div>
-                <Row><Col></Col></Row>
+                <Row><Col></Col></Row><br/>
             </Container></div>
         </>
     )

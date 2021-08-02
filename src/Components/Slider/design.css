@@ -1,0 +1,14 @@
+.card{
+    background-color: rgb(250, 243, 234);
+    box-shadow: gray;
+}
+
+h5{
+    color: rgb(245, 45, 45);
+    text-align: center;
+    background-color: rgb(253, 191, 77);
+}
+img{
+    margin-left: auto;
+  margin-right: auto;
+}

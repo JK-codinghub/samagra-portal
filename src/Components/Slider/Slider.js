@@ -30,7 +30,7 @@ export default function Slider() {
     }
 
     return (
-        <div className="container-slider">
+        <div className="container-slider"style={{backgroundColor:"rgba(0, 0, 0, 1)"}}>
             {dataSlider.map((obj, index) => {
                 return (
                     <>
@@ -41,7 +41,7 @@ export default function Slider() {
                         <img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
                         alt="snow" />
-                         <div className="centered">
+                         <div className="container fluid centered" >
                              <h1>Samagra Abhivruddhi</h1>
                              <h4>Customer Service Center</h4>
                              </div>
