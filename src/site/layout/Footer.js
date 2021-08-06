@@ -28,7 +28,7 @@ const Footer = () => {
                     </Col>
                    
                     <Col xs={5}>
-                    <img src={require('../../images/logo.png').default} style={{width:"100px"}}/>
+                    <img src={require('../../images/logo.png').default} style={{width:"100px"}} alt=""/>
                     <br/><br></br>
                     <Phone/> 9986090984  <br/>                 
                     <EnvelopeOpen/> nagendrasamruddha@gmail.com

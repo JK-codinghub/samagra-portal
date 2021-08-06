@@ -8,7 +8,7 @@ const AboutUs = () =>{
             <h4>ABOUT US </h4><hr/>
             <Container><br/>
                 <Row><Col></Col>
-                    <Col><img src={require('../../images/Office.jpg').default} style={{borderRadius:"150px"}} width="200px" height="200px"/>
+                    <Col><img src={require('../../images/Office.jpg').default} style={{borderRadius:"150px"}} width="200px" height="200px" alt=""/>
                          <b>CEO OF SAMAGRA ABHVRUDDHI</b>
                     </Col>
                     <Col></Col>
