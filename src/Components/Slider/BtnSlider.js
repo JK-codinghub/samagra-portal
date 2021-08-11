@@ -7,7 +7,7 @@ export default function BtnSlider({ direction, moveSlide }) {
   console.log(direction, moveSlide);
   return (
     <>
-    <div className="container">
+    <div className="container" style={{marginTop:"0"}}>
     <button
       onClick={moveSlide}
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}

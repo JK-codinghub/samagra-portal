@@ -8,7 +8,7 @@ const Karnataka = () => {
             <Container>
 
 
-                <fieldset style={{ border: "2px orange solid", backgroundColor: "" }}>
+                <fieldset style={{ border: "2px orange solid", backgroundColor: "rgba(229, 229, 229, 1)" }}>
 
                     <legend style={{ border: "2px red solid", marginLeft: "0em", padding: "0em 0.3em ,", fontFamily: "fantasy", fontSize: "15px", backgroundColor: "orange" }}>DIRECTORATE OF SOCIAL SECURITY AND PENSION</legend>
                     <br />
