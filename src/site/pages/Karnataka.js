@@ -14,7 +14,7 @@ const Karnataka = () => {
                     <br />
                     <Row><Col>
                         &nbsp;&nbsp;
-                        <button type="button" className="btn btn-light btn-lg" data-toggle="modal01" data-target="#myModal" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Anthya Samskara</button>
+                        <button type="button" className="btn btn-light btn-lg" data-toggle="modal01" data-target="#myModal01" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Anthya Samskara</button>
                         <div className="modal fade" id="myModal01" role="dialog">
                             <div className="modal-dialog modal-md">
                                 <div className="modal-content">
