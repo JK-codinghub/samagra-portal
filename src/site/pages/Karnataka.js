@@ -14,8 +14,8 @@ const Karnataka = () => {
                     <br />
                     <Row><Col>
                         &nbsp;&nbsp;
-                        <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Anthya Samskara</button>
-                        <div className="modal fade" id="myModal" role="dialog">
+                        <button type="button" className="btn btn-light btn-lg" data-toggle="modal01" data-target="#myModal" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Anthya Samskara</button>
+                        <div className="modal fade" id="myModal01" role="dialog">
                             <div className="modal-dialog modal-md">
                                 <div className="modal-content">
                                     <div className="modal-header bg bg-warning">
@@ -39,8 +39,8 @@ const Karnataka = () => {
                         </div>
                         </Col>
                         <Col> &nbsp;&nbsp;
-                        <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal2" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Acid Victim Pension</button>
-                        <div className="modal fade" id="myModal2" role="dialog">
+                        <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal02" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Acid Victim Pension</button>
+                        <div className="modal fade" id="myModal02" role="dialog">
                             <div className="modal-dialog modal-md">
                                 <div className="modal-content">
                                     <div className="modal-header bg bg-warning">
@@ -64,8 +64,8 @@ const Karnataka = () => {
                         </div>
                         </Col>
                         <Col>&nbsp;&nbsp;
-                         <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal3" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Sandhya Suraksha Yojane</button>
-                        <div className="modal fade" id="myModal3" role="dialog">
+                         <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal03" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Sandhya Suraksha Yojane</button>
+                        <div className="modal fade" id="myModal03" role="dialog">
                             <div className="modal-dialog modal-md">
                                 <div className="modal-content">
                                     <div className="modal-header bg bg-warning">
@@ -93,8 +93,8 @@ const Karnataka = () => {
                     <Row>
                         <Col>
                             &nbsp;&nbsp;
-                            <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal4" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Indira Gandhi National Old Age Pension</button>
-                            <div className="modal fade" id="myModal4" role="dialog">
+                            <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal04" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Indira Gandhi National Old Age Pension</button>
+                            <div className="modal fade" id="myModal04" role="dialog">
                                 <div className="modal-dialog modal-md">
                                     <div className="modal-content">
                                         <div className="modal-header bg bg-warning">
@@ -118,8 +118,8 @@ const Karnataka = () => {
                             </div>
                         </Col>
                         <Col> &nbsp;&nbsp;
-                            <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal5" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Maithri Scheme</button>
-                            <div className="modal fade" id="myModal5" role="dialog">
+                            <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal05" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Maithri Scheme</button>
+                            <div className="modal fade" id="myModal05" role="dialog">
                                 <div className="modal-dialog modal-md">
                                     <div className="modal-content">
                                         <div className="modal-header bg bg-warning">
@@ -143,8 +143,8 @@ const Karnataka = () => {
                             </div>
                         </Col>
                         <Col> &nbsp;&nbsp;
-                            <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal6" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>+ NEW</button>
-                            <div className="modal fade" id="myModal6" role="dialog">
+                            <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModal06" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>+ NEW</button>
+                            <div className="modal fade" id="myModal06" role="dialog">
                                 <div className="modal-dialog modal-md">
                                     <div className="modal-content">
                                         <div className="modal-header bg bg-warning">
