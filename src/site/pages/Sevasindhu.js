@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import Karnataka from "./Karnataka";
 const Sevasindhu = () => {
     return (
         <>
@@ -16,94 +17,8 @@ const Sevasindhu = () => {
                 <Container>
                     <div class="list-group">
                         <h4>Department and Services</h4>
-                      
-
-
-                        <hr />
-                        <div >
-                            <Row>
-                                <Col>
-                                <img class="shadow" src={require('../../images/pension.png').default} style={{ width: "300px", height: "300px" }} alt="..." />
-                                </Col>
-                                <Col>
-                                <Row>
-                                        <Col> <br />
-                                            <Button type="button" className="border border-warning btn-light dropdown-toggle" data-toggle="collapse" data-target="#d4">MYTHRI</Button>
-                                            <div id="d4" className="collapse">
-                                                <ul>
-                                                    <li>Adhar Card </li>
-                                                    <li>Ration card</li>
-                                                    <li>Medical Certificate</li>
-                                                    <li>Voter ID xerox 1 copy</li>
-                                                    <li>Transgender Medical Certificate</li>
-                                                </ul>
-                                            </div>
-                                        </Col>
-
-                                    </Row>
-                                    <Row>
-                                        <Col> <br /> 
-                                            <Button type="button" className="border border-warning btn-light dropdown-toggle" data-toggle="collapse" data-target="#d5">ACID VICTIM PENSION</Button>
-                                            <div id="d5" className="collapse">
-                                                <ul>
-                                                    <li>Adhar Card </li>
-                                                    <li>Ration card</li>
-                                                    <li>Photo</li>
-                                                    <li>Voter ID xerox 1 copy</li>
-                                                    <li>Income Certificate</li>
-                                                    <li>Age Certificate</li>
-                                                    <li>Residance Certificate</li>
-                                                </ul>
-                                            </div>
-                                        </Col></Row>
-                            
-
-                                    <Row>
-                                        <Col><br />
-                                            <Button type="button" className="border border-warning btn-light dropdown-toggle" data-toggle="collapse" data-target="#d16">INDIRA GANDHI NATIONAL<br/> OLD AGE PENSION</Button>
-                                            <div id="d16" className="collapse">
-                                                <ul>
-                                                    <li>Adhar Card </li>
-                                                    <li>Ration card</li>
-                                                    <li>Photo</li>
-                                                    <li>Voter ID</li>
-                                                    <li>Residence Certificate</li>
-                                                    <li>Age Certificate</li>
-                                                    <li>Income Certificate</li>
-                                                </ul>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                    </Col>
-                                    <Col>
-                                    <Row>
-                                        <Col><br />
-                                            <Button type="button" className="border border-warning btn-light dropdown-toggle" data-toggle="collapse" data-target="#d32">SANDHYA SURAKSHA YOJANE</Button>
-                                            <div id="d32" className="collapse">
-                                                <ul>
-                                                    <li>Adhar Card </li>
-                                                    <li>Ration card</li>
-                                                    <li>Photo</li>
-                                                    <li>Voter ID</li>
-                                                    <li>Residence Certificate</li>
-                                                    <li>Age Certificate</li>
-                                                    <li>Income Certificate</li>
-                                                    <li>Employement Certificate</li>
-                                                </ul>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col><br />
-                                            <Button type="button" className="border border-warning btn-light dropdown-toggle" data-toggle="collapse" data-target="#d34">ANTHYA SAMSKARA YOJANE</Button>
-                                            <div id="d34" className="collapse">
-                                                <ul><li>Aadhar card</li><li>photo</li><li>Ration card xerox 1 copy</li><li>Voter ID</li><li>Residence certificate</li><li>Age certificate</li><li>Income certificate</li></ul>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </Col>
-                            </Row>
-                        </div>
+                        <img class="shadow" src={require('../../images/pension.png').default} style={{ width: "300px", height: "300px" }} alt="..." />
+                        <Karnataka/>
    <hr />
                         <br />
                         <div>

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav className="navbar navbar-expand-lg navbar-light bg-warning" >
             <div className="container-fluid">
                 <Link className="navbar-brand" to="#"><img src={require('../../images/logo.png').default} style={{width:"100px"}} alt=""/></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@ const Navbar = () => {
                             </Link>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><Link className="dropdown-item" to="/seva">SEVA SINDHU</Link></li>
-                                <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                                <li><Link className="dropdown-item" to="/revenue">Another action</Link></li>
 
                                 <li><Link className="dropdown-item" to="#">Something else here</Link></li>
                             </ul>

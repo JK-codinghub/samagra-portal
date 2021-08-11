@@ -42,7 +42,7 @@ export default function Slider() {
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} 
                         alt="snow" />
                          <div className="container fluid centered" >
-                             <h1>Samagra Abhivruddhi</h1>
+                             <h1 style={{fontFamily:"cursive",textAlign:"center"}}>Samagra Abhivruddhi</h1>
                              <h4>Customer Service Center</h4>
                              </div>
                     </div>

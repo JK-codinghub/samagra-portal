@@ -1,15 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col,Container} from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import { EnvelopeOpen,Phone } from 'react-bootstrap-icons';
 
-const Footer = () => {
+const Footer1 = () => {
     return (
         <>
         
-            <Container fluid className="footer bg-warning" >
+            <Container fluid className="footer bg-warning fixed" style={{bottom: "0",width: "100%"}} >
                 <br/>
-                <Row> &nbsp;&nbsp;&nbsp;&nbsp;
+                <Row> 
                    
                     <Col xs={4}>
                     <h4>Comment Us</h4>
@@ -44,10 +44,10 @@ const Footer = () => {
                     </Col>
                 </Row><br/>
             </Container>
-            <Container fluid className="text-light" style={{backgroundColor:'rgb(0, 0, 0)'}}>
-                 <Row><Col></Col>
+            <Container fluid className="text-light" style={{backgroundColor:'rgb(0, 0, 0)', bottom: "0",width: "100%",height:"30px"}}>
+                 <Row>
                    <Col xs={5}>nagendrasamruddha@gmail.com|JyotiKalshetty@Copyright-2021</Col>
-                   <Col></Col>
+                   
                  </Row>
                
             </Container>
@@ -55,4 +55,4 @@ const Footer = () => {
         </>
     )
 }
-export default Footer;
+export default Footer1;

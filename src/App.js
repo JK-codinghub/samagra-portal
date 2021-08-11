@@ -9,8 +9,9 @@ import Services from './site/pages/Services';
 import Navbar from './site/layout/Navbar';
 import Sevasindhu from './site/pages/Sevasindhu'
 import Events from './site/pages/Events'
-import Footer from './site/layout/Footer'
+import Footer1 from './site/layout/Footer1'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Revenue from './site/pages/Revenue';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
         <Route exact path="/seva" component={Sevasindhu}/>
         <Route exact path="/about" component={AboutUs}/>
         <Route exact path="/event" component={Events}/>
+        <Route exact path="/revenue" component={Revenue}/>
       </Switch>
-      <Footer/>
+      <Footer1/>
     </div>
     </Router>
     
