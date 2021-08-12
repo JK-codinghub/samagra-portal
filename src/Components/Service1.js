@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Card, Table } from 'react-bootstrap'
-import { Link } from "react-router-dom";
-
 import './Slider/design.css'
 
 const Service1 = () => {
@@ -22,7 +20,9 @@ const Service1 = () => {
                     <Col >
                         <Card className="shadow-xs border rounded border-warning">
                             <Card.Header className="bg-warning" >
-                                <h5 style={{ color: "rgb(255, 71, 26)" }}><u>New Notification</u></h5>
+                                <h5 style={{ color: "rgb(255, 71, 26)" }}><u>New Notification</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span className="text-success"><a href="#">View All</a></span>
+                                </h5>
                             </Card.Header>
                             <Card.Body style={{ backgroundColor: "rgb(255, 243, 230)" }}>
                                 <ol><marquee direction="up" scrollamount="3">
@@ -50,10 +50,10 @@ const Service1 = () => {
                             <span style={{fontsize:"25px"}}><b>SERVICES</b></span>
                             <br/><br/>
                             <Row>
-                             <Col> <img src={require('../../src/images/megaphone.png').default} style={{ width: "80px", height: "80px" }} alt=""/><br/>Updates</Col>
-                             <Col> <img src={require('../../src/images/mechanic.png').default} style={{ width: "80px", height: "80px" }} alt=""/><br/> &nbsp;Services</Col>
-                             <Col> <img src={require('../../src/images/debit-card.png').default} style={{ width: "80px", height: "80px" }} alt=""/><br/>Card Services</Col>
-                             <Col> <img src={require('../../src/images/newspaper.png').default} style={{ width: "80px", height: "80px" }} alt=""/><br/>Cetificates,<br/>Scholarships</Col>
+                             <Col><a href="#"> <img src={require('../../src/images/megaphone.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/>Updates</Col>
+                             <Col><a href="/services"> <img className="a1" src={require('../../src/images/mechanic.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/> &nbsp;Services</Col>
+                             <Col><a href="/seva"> <img className="a1" src={require('../../src/images/debit-card.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/>Card Services</Col>
+                             <Col><a href="/seva"> <img className="a1" src={require('../../src/images/newspaper.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/>Cetificates</Col>
                             </Row>
                             <br/>
                         </Container>
@@ -66,8 +66,10 @@ const Service1 = () => {
                         <br/><br/>
                             <Row>
                                 
-                             <Col> <img src={require('../../src/images/megaphone.png').default} style={{ width: "80px", height: "80px" }} alt=""/><br/>Holidays<br/>Announcement</Col>
-                             <Col> <img src={require('../../src/images/mechanic.png').default} style={{ width: "80px", height: "80px" }} alt=""/><br/> &nbsp;Job Portal</Col>
+                             <Col><a href="/about"> <img className="a1" src={require('../../src/images/phone-call.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/>Contact Us</Col>
+                             <Col><a href="#"> <img className="a1" src={require('../../src/images/employees.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/> &nbsp; &nbsp;Career</Col>
+                             <Col><a href="#"> <img className="a1" src={require('../../src/images/mail.png').default} style={{ width: "80px", height: "80px" }} alt=""/></a><br/> &nbsp; &nbsp;Mail</Col>
+                           
                             </Row>
                             <br/>
                         </Container><br/>
@@ -78,6 +80,7 @@ const Service1 = () => {
 
             </Container><br /><br />
 
+<br/>
         </>
     )
 }

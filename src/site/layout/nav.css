@@ -2,9 +2,18 @@
 .nav-link{
    font-family: 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    color: white;
+  
    
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+  
 }
 
 .navbar-toggler-icon{
     color-adjust: black;
+}
+.footer{
+    background-color: linear-gradient(to top, #000000 -30%, #ffffff 93%);
 }
