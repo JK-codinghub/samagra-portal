@@ -1,13 +1,14 @@
 import React from "react"
 import {Link} from 'react-router-dom'
+import './nav.css'
 const Navbar = () => {
     return (
-
-        <nav className="navbar navbar-expand-lg navbar-light bg-warning " >
+<>
+        <nav className="navbar navbar-expand-lg bg-dark " >
             <div className="container-fluid">
-                <Link className="navbar-brand" to="#"><img src={require('../../images/logo.png').default} style={{width:"100px"}} alt=""/></Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                <Link className="navbar-brand" to="#"></Link>
+                <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"><b>=</b></span>
                 </button> 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,7 +34,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/about">ABOUT US</Link>
-                        </li>
+                        </li> 
                         <li className="nav-item">
                         <div id="google_translate_element"></div>
                         </li>
@@ -45,7 +46,8 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-
+      
+</>
     )
 }
 export default Navbar;
