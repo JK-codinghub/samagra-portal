@@ -1,9 +1,8 @@
-
 .nav-link{
+    padding-right: "10px";
    font-family: 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    color: white;
   
-   
 }
 .nav-link:hover{
     background-color: white;

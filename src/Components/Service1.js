@@ -25,14 +25,14 @@ const Service1 = () => {
                                 </h5>
                             </Card.Header>
                             <Card.Body style={{ backgroundColor: "rgb(255, 243, 230)" }}>
-                                <ol><marquee direction="up" scrollamount="3">
-                                    <li>Labour Card Renewal<hr /></li>
-                                    <li>Income Cast Renewal<hr /></li>
-                                    <li>Ration Card Modification<hr /></li>
-                                    <li>PAN Card Renewal<hr /></li>
+                               <marquee direction="up" scrollamount="3">
+                                   Labour Card Renewal<hr />
+                                   Income Cast Renewal<hr />
+                                   Ration Card Modification<hr />
+                                   PAN Card Renewal<hr />
 
                                 </marquee>
-                                </ol></Card.Body>
+                                </Card.Body>
                         </Card>
 
 
