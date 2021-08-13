@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
+import './content.css'
 const Content = () => {
     return (
         <div className="py-4" >
@@ -7,51 +8,143 @@ const Content = () => {
 
 
                 <br />
-                <Row className="shadow-sm bg-light">
-                    <Col>
-                        <img src={require('../../src/images/pan.png').default} style={{ width: "200px", height: "200px" }} className="align-self-center mr-3" style={{ width: "200px", height: "200px" }} alt="..." />
-                    </Col>
-                    <Col xs={9}>
-                        <h5 className="mt-0">PAN CARD</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </Col>
-                </Row>
-                <br /><br />
-                <Row className="shadow-sm bg-light"><br/><Col></Col>
-                    <Col xs={8}> <h5 className="mt-0">AADHAR CARD</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <div className="container">
+                    <Row>
+                        <div className="rst-category">
+                            <h4>Aadhaar</h4>
+                            <ul>
+                                <li>Aadhaar Demographic Update
+                                </li>
+                                <li> Aadhaar Mobile Update
+                                </li>
+                                <li> Best Finger Detection
+                                </li>
+                                <li> Aadhaar eKYC PVC Print
+                                </li>
 
-                    </Col>
-                    <Col xs={1}>
-                        <img src={require('../../src/images/adhar.jpeg').default} className="align-self-center mr-3" style={{ width: "200px", height: "200px" }} alt="..." />
+                            </ul>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Banking and Pension</h4>
+                            <ul>
 
-                    </Col><Col></Col><br/>
-                </Row>
+                                <li> RAP Registration </li>
+                                <li> Basic Banking Course</li>
+                                <li> Life Certificate (LIC) </li>
+                                <li> Pin Pad Device Payment Service</li>
 
-                <br/><br/>
-                <Row className="shadow-sm bg-light"><br/><Col xs={1}></Col>
-                    <Col>
-                        <img src={require('../../src/images/labour card.png').default} className="align-self-center mr-3" style={{ width: "200px", height: "200px" }} alt="..." />
-                    </Col>
-                    <Col xs={8}>
-                        <h5 className="mt-0">LABOUR CARD</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </Col><br/>
-                </Row>
-                <br /><br />
-                <Row className="shadow-sm bg-light"><br/><Col></Col>
-                    <Col xs={8}> <h5 className="mt-0">PASS PORT</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </ul>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Electricity</h4>
+                            <ul>
+                                <li> Online Bill Payment (Non-RAPDRP)</li>
+                                <li> Online Bill Payment (RAPDRP)</li>
+                                <li> Online Bill Payment</li>
 
-                    </Col>
-                    <Col xs={1}>
-                        <img src={require('../../src/images/indian-passport-fb.jpg').default} className="align-self-center mr-3" style={{ width: "200px", height: "200px" }} alt="..." />
 
-                    </Col><Col></Col><br/>
-                </Row>
-      
-                
+                            </ul>
+                        </div>
 
+                    </Row>
+                    <br />
+                    <Row>
+                        <div className="rst-category">
+                            <h4>Government</h4>
+                            <ul>
+                                <li> Birth and Death Application</li>
+                                <li> Forest Services</li>
+                                <li> Online FIR</li>
+                                <li> Ration Card Services</li>
+
+                            </ul>
+                        </div>  &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Health</h4>
+                            <ul>
+                                <li> Super Speciality Consultation</li>
+                                <li> Telemedicine</li>
+                                <li> Jan Aushadhi Registration</li>
+                                <li> Jiva Telemedine</li>
+
+                            </ul>
+                        </div>  &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Insurance</h4>
+                            <ul>
+                                <li> Pradhan Mantri Fasal Bima Yojna </li>
+                                <li> Farmer Package Policy</li>
+                                <li> Life Insurance</li>
+                                <li> Personal Accidental</li>
+
+                            </ul>
+                        </div>
+                    </Row>
+                    <br />
+                    <Row>
+
+                        <div className="rst-category">
+                            <h4>Others</h4>
+                            <ul>
+                                <li> PVC Card and Biometric Device </li>
+                                <li> Pradhan Mantri Awas Yojana</li>
+                                <li> Jeeevan Pramaan</li>
+                                <li> NIELIT Facilitation Centre</li>
+
+                            </ul>
+                        </div>  &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Travel</h4>
+                            <ul>
+                                <li> Darshan Booking</li>
+                                <li> Bus Ticket Booking</li>
+                                <li> Flight Tickets</li>
+                                <li> Bus Tickets</li>
+
+                            </ul>
+                        </div>
+                    </Row>
+                    <div className="clear"></div>
+                </div>
+
+                <br /><hr /><br />
+                <h2 style={{ textAlign: "center" }}><u>Customer Service Point(CSP)</u></h2><br />
+                <br />
+                    <Row>
+                        <div className="rst-category">
+                            <h4>Bank of Baroda</h4>
+                            <ul>
+                                <li> Zero (0) Account</li>
+                                <li> AEPS</li>
+                                <li> IMPS</li>
+                               
+
+                            </ul>
+                        </div>  &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Social Security Scheme</h4>
+                            <ul>
+                                <li> Pradhan Mantri Suraksha Bhima Yojana</li>
+                                <li> Pradhan Mantri Jeeevan Jyoti Bhima Yojana</li>
+                                <li> Jan Aushadhi Registration</li>
+                                <li> Atal Pension Yojana</li>
+
+                            </ul>
+                        </div>  &nbsp;&nbsp;&nbsp;
+                        <div className="rst-category">
+                            <h4>Others</h4>
+                            <ul>
+                                <li>-  </li>
+                                <li>- </li>
+                                <li>- </li>
+                                <li>- </li>
+
+                            </ul>
+                        </div>
+                    </Row>
+                    <br />
 
             </Container>
         </div>

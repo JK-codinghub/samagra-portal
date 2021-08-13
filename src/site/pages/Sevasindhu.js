@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
-
 import Karnataka from "./Karnataka";
 import Revenue from "./Revenue";
+import './seva.css'
 const Sevasindhu = () => {
     return (
         <>
@@ -21,10 +21,10 @@ const Sevasindhu = () => {
             <Revenue />
             <br />
             <Container>
-                <fieldset style={{ border: "2px orange solid", backgroundColor: "rgba(229, 229, 229, 1)" }}>
+                <fieldset style={{ border: "2px orange solid" }}>
 
-                    <legend style={{ border: "2px red solid", marginLeft: "0em", padding: "0em 0.3em ,", fontFamily: "fantasy", fontSize: "15px", backgroundColor: "orange" }}>FOOD AND CIVIL SUPPLIES DEPARTMENT</legend>
-                    <br />
+                    <legend style={{  marginLeft: "0em", padding: "0.2em 2em",fontSize: "15px", backgroundColor: "orange" }}>FOOD AND CIVIL SUPPLIES DEPARTMENT</legend>
+                    <br /><br />
                     <Row><Col>
                         &nbsp;&nbsp;
                         <button type="button" className="btn btn-light btn-lg" data-toggle="modal" data-target="#myModalF1" style={{ fontFamily: "sans-serif", width: "320px", fontSize: "15px" }}>Addition of Name in RC</button>
@@ -98,11 +98,7 @@ const Sevasindhu = () => {
                 </fieldset>
             </Container>
             <br/><br/>
-            <h4>Department and Services</h4>
-            <img class="shadow" src={require('../../images/pension.png').default} style={{ width: "300px", height: "300px" }} alt="..." />
-            <img class="shadow" src={require('../../images/revenue.png').default} style={{ width: "300px", height: "300px" }} alt="..." />
-            <img class="shadow" src={require('../../images/food.png').default} style={{ width: "300px", height: "300px" }} alt="..." />
-            <hr />
+           
         </>
     )
 }

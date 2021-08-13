@@ -1,0 +1,25 @@
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+div {
+    display: block;
+}
+.rst-category {
+    border: 1.5px dashed #17e1fc;
+    margin: -1px 0 0 -1px;
+    padding: 20px 6px 40px;
+    width: 30%;
+}
+.rst-category:hover{
+    background-color: rgb(255, 9, 9);
+    color: rgb(255, 254, 255);
+    border: 1.5px solid #0f0f0f;
+    
+}
+li{
+    margin-left: -5px;
+}

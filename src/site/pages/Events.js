@@ -46,6 +46,7 @@ const Events = () => {
                     </div>
                 </Col>
             </Row>
+            <br/>
         </div>
 
     )

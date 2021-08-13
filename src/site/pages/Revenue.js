@@ -9,10 +9,10 @@ const Revenue = () => {
             <Container>
 
 
-                <fieldset style={{ border: "2px orange solid", backgroundColor: "rgba(229, 229, 229, 1)" }}>
+                <fieldset style={{ border: "2px orange solid"}}>
 
-                    <legend style={{ border: "2px red solid", marginLeft: "0em", padding: "0em 0.3em ,", fontFamily: "fantasy", fontSize: "15px", backgroundColor: "orange" }}>REVENUE DEPARTMENT</legend>
-                    <br />
+                    <legend style={{  marginLeft: "0em", padding: "0.2em 2em ",  fontSize: "20px", backgroundColor: "orange" }}>REVENUE DEPARTMENT</legend>
+                    <br /><br />
 
                     <Row>
                         <Col>&nbsp;&nbsp;
