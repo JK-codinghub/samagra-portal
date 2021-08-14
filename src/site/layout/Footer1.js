@@ -38,11 +38,7 @@ const Footer1 = () => {
                 </Container><br/>
             </Container>
             <Container fluid className="text-light" style={{ backgroundColor: 'rgb(0, 0, 0)', bottom: "0", width: "100%", height: "30px" }}>
-                <Row>
-                    <Col md={5}>nagendrasamruddha@gmail.com|JyotiKalshetty@Copyright-2021</Col>
-
-                </Row>
-
+                <Container>nagendrasamruddha@gmail.com|JyotiKalshetty@Copyright-2021</Container>
             </Container>
 
         </>

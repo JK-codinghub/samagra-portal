@@ -5,19 +5,21 @@ import './Slider/design.css'
 const Service1 = () => {
     return (
         <>
-
-
             <Container>
 
                 <h4><u>AboutUs</u></h4>
 
                 <br />
                 <Row>
-                    <Col xs={8}>Samagra Abhivruddhi portal is an initiative of Government of Karnataka to deliver the Government services all at the doorsteps of citizens.<br />
-                        Samagra Abhivruddhi portal is integrated with CSC and Seva sindhu services and aims to bring all departmental services on one platform. The objective is to provide government services provision of accessible, cost-effective, accountable and transparent services to citizens. Samagra Abhivruddhi portal provides enhancing the citizen service delivery mechanism<br />
+                    <Col md={7}>
+                    <p >
+                        Samagra Abivruddhi People's Service Center is a sincere effort to provide services to all citizens.
+                        Samagra Abhivruddhi Trying to provide services of all departments of CSC Digital Seva, Seva Sindhu, Nada Office, Bank Mitr, etc. 
+                        Samagra Abhivruddhi portal is integrated with CSC and Seva sindhu services and aims to bring all departmental services on one platform. The objective is to provide government services provision of accessible, cost-effective, accountable and transparent services to citizens. Samagra Abhivruddhi portal provides enhancing the citizen service delivery mechanism
                         This portal provides the every single updates of Government services followed by CSC and Seva sindhu services.
-                    </Col>
-                    <Col >
+                        </p>
+                        </Col>
+                    <Col  md={4}>
                         <Card className="shadow-xs border rounded border-warning">
                             <Card.Header className="bg-warning" >
                                 <h5 style={{ color: "rgb(255, 71, 26)" }}><u>New Notification</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

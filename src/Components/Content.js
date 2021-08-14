@@ -128,7 +128,7 @@ const Content = () => {
                             <ul>
                                 <li> Pradhan Mantri Suraksha Bhima Yojana</li>
                                 <li> Pradhan Mantri Jeeevan Jyoti Bhima Yojana</li>
-                                <li> Jan Aushadhi Registration</li>
+                                
                                 <li> Atal Pension Yojana</li>
 
                             </ul>
