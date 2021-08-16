@@ -14,11 +14,11 @@ const Sevasindhu = () => {
                 </p>
 
             </div>
-
-            <br />
-            <Karnataka />
             <br />
             <Revenue />
+            <br />
+            <Karnataka />
+           
             <br />
             <Container>
                 <fieldset style={{ border: "2px orange solid" }}>

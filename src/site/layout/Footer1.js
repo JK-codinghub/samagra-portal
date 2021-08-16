@@ -10,7 +10,8 @@ const Footer1 = () => {
             <Container fluid className="bg bg-secondary text-light"><br/>
                 <Container>
                     <Row>
-                        <Col md={4}><h4 className="title" style={{fontFamily:"San-serif"}}>Samagra Abhivruddhi</h4>
+                        <Col md={4}><h4 className="title" style={{fontFamily:"San-serif"}}>Samagra Abhivruddhi </h4>
+                        <span><i>Jana Seva Kendra</i></span>
                             <p>
                                 All Services at one point, Visite our Office for more details<br/><br/>
                                 <b>Address :</b> Opposite Durga Udupi Hotel, Near Aland check post,Gulbarga.
